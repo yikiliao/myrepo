@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EVAERPModelStoreContainer" CdmEntityContainer="EVAERPEntities">
+    <EntitySetMapping Name="bmt001">
+      <EntityTypeMapping TypeName="EVAERPModel.bmt001">
+        <MappingFragment StoreEntitySet="bmt001">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="code_desc" ColumnName="code_desc" />
+          <ScalarProperty Name="add_user" ColumnName="add_user" />
+          <ScalarProperty Name="add_date" ColumnName="add_date" />
+          <ScalarProperty Name="mod_user" ColumnName="mod_user" />
+          <ScalarProperty Name="mod_date" ColumnName="mod_date" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="a" ColumnName="a" />
+          <ScalarProperty Name="vaild" ColumnName="vaild" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
